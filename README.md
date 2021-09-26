@@ -147,7 +147,7 @@ Check your installation is working by visiting in a browser: http://[your_elk_se
 
 You should see something similar to this:
 
-![Elk Playbook](https://user-images.githubusercontent.com/84483356/134792216-a62cfc00-3af2-4b48-9822-34d3e6cf763f.png)
+![ELK SCREEN](https://user-images.githubusercontent.com/84483356/134792341-e2ff2cff-129d-44d0-a403-b1e9ee7e9127.png)
 
 Installing Filebeats:
 
