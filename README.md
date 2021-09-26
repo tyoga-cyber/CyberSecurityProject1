@@ -89,7 +89,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Images/docker_ps_output.png)
+![docker_ps_output](https://user-images.githubusercontent.com/84483356/134792037-93bf828c-9c05-4743-90bd-f063dd8623d0.png)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -129,6 +130,8 @@ Update the configuration file to include the elk server ip..
 
 Run the playbook, and navigate to http://[elkserverip]:5601/app/kibana#/home to check that the installation worked as expected.
 
+![Welcome to Kibana](https://user-images.githubusercontent.com/84483356/134792150-231598c7-94d3-44d1-9a14-6fa82b3ef32c.png)
+
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
@@ -136,16 +139,31 @@ On the Jump box run the following command to get the playbook:
 
 Edit the hosts file in /etc/ansible/hosts and add the details from the
 
+![Editing the Hosts File](https://user-images.githubusercontent.com/84483356/134792159-8912579c-a46a-4183-b114-e83462fbffee.png)
+
 The command to run the Playbook: ansible-playbook /etc/ansible/elk_install.yml
 
 Check your installation is working by visiting in a browser: http://[your_elk_server_ip]:5601/app/kibana
 
 You should see something similar to this:
 
+![Elk Playbook](https://user-images.githubusercontent.com/84483356/134792216-a62cfc00-3af2-4b48-9822-34d3e6cf763f.png)
+
 Installing Filebeats:
+
+![FileBeat Playbook](https://user-images.githubusercontent.com/84483356/134792224-3120009d-90a7-419e-8e93-054a14a42d9a.png)
+
 
 Download the playbook with the following command: 
 
 Run the playbook with: ansible-playbook /etc/ansible/roles/filebeat_playbook.yml
 
-You should begin seeing information such as the following:
+You should begin seeing information such as the following
+
+
+![FileBeat Playbook Verification](https://user-images.githubusercontent.com/84483356/134792236-098d72fd-06e8-4ee3-801b-0f61e1b01b18.png)
+
+
+![Filebeat Overview](https://user-images.githubusercontent.com/84483356/134792244-29342873-1137-4fdf-a5bf-909799b732f8.png)
+
+
