@@ -137,7 +137,7 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 
 On the Jump box run the following command to get the playbook: 
 
-Edit the hosts file in /etc/ansible/hosts and add the details from the
+Edit the hosts file in /etc/ansible/hosts and add the details to include the ELK server
 
 ![Editing the Hosts File](https://user-images.githubusercontent.com/84483356/134792159-8912579c-a46a-4183-b114-e83462fbffee.png)
 
